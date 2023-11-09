@@ -34,7 +34,7 @@
       - Membership => to check whether an element or group of elements are part of seq
       - Identity =>
       - len => returns length of string or total number of char
-- Methods related to String:
+#### Methods related to String:
    - dir(str) gives a library of string methods in Python
    - capitalize() => used to capitalize the first char of the string
    - casefold() => used to convert uppercase to lowercase letters and it is more aggressive
@@ -44,6 +44,12 @@
    - startswith() or endswith() => returns True or False based on whether the string is starting or ending with given condition
    - title() => return string where every 1st char of the word is capitalize
    - isalnum(), isalpha(), isascii(), isdecimal(), isdigit(), isidentifier(), islower(), isnumeric(), isprintable(), isspace(), istitle(), isupper() => Returns True or False based on the method.
+   - find(), rfind, index(), rindex() => returns the index of substring that you are looking for in a given string. find(), index() => start search from left side and rfind(), rindex() => start search from right side
+   - strip(), rstrip(), lstrip() => used to remove the unnecessary spaces from the string from string start or end or both but not mid
+   - count() => gives the total no. of occurrences of a given string
+   - replace() => replaces old string with new string
+   - split(), rsplit() => split the string  by spaces and returns a list of words 
+   - join() => used to join list of words with a separator. format is different from other methods. (eg: print('',join(string)))
 
 
   #### Mutable  and Immutable Data types:
