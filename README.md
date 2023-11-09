@@ -9,20 +9,46 @@
    - None
    - String
 - Number Data Types
-   - Integer 
+   - Integer: 
      - Any real number without decimal point
      - Integers can be represented in binary, octal and hexadecimal
      - No concept of short,long int
      - **bin()** function is used to convert from decimal to binary and all digits in 0 & 1, preceded by 0b (eg. 10 is in binary form as 0b1010)
      - **oct()** function is used to convert from decimal to oct and all digits in 0 to 7 preceded by 0o
       - **hex()** function is used to convert from decimal to hexadecimal and all digits in 0 to 9, A-F preceded by 0x (eg. 10 is in binary form as 0b1010)   
-   - Float
+   - Float:
       - Represented in decimal format
       - No concept of double in float
-   - Complex
+   - Complex:
       - real + imaginary values in complex data type
-- Boolean
+- Boolean:
    - Only two values in Boolean. True = 1;False = 0
+- String:
+   - Values inside ' '," ", ''' ''', """  """, are strings
+   - String is a sequence of characters i.e, an ordered collection of elements.
+      - accessed the element from +ve index from left to right and -ve index from right to left
+      - Indexing => accessing single element
+      - slicing => accessing multiple elements
+      - concatenation => combine 2 0r more strings using '+' operator
+      - repetition => repetition of a string for more than 1 time, use * operator
+      - Membership => to check whether an element or group of elements are part of seq
+      - Identity =>
+      - len => returns length of string or total number of char
+- Methods related to String:
+   - dir(str) gives a library of string methods in Python
+   - capitalize() => used to capitalize the first char of the string
+   - casefold() => used to convert uppercase to lowercase letters and it is more aggressive
+   - lower()=>  used to convert uppercase to lowercase letter
+   - swapcase() => used to swap the cases of string
+   - upper() => used to convert all to uppercase
+   - startswith() or endswith() => returns True or False based on whether the string is starting or ending with given condition
+   - title() => return string where every 1st char of the word is capitalize
+   - isalnum(), isalpha(), isascii(), isdecimal(), isdigit(), isidentifier(), islower(), isnumeric(), isprintable(), isspace(), istitle(), isupper() => Returns True or False based on the method.
+
+
+  #### Mutable  and Immutable Data types:
+  - List, bytearray, dictionary,set are mutable data types i.e, changes will make on the same object.
+  - rest all are immutable i.e not modified the values on the same object.
 
 #### Operators:
 - Arithmetic Operators
@@ -56,7 +82,7 @@
 
 
 
-- ord() gives ASCII value of Character and chr() is used to get the character from number
-- id() is used to get the address of the variable.
+- **ord()** gives ASCII value of Character and chr() is used to get the character from number
+- **id()** is used to get the address of the variable.
 
 
