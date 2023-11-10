@@ -92,4 +92,40 @@
 - **id()** is used to get the address of the variable.
 
 
+#### Derived Data Types:
+- List
+- Tuple
+- Set
+- Frozenset
+- Dictionary
+- bytes
+- bytearray
+- range
+
+#### List
+- Any element inside square brackets separated by a comma.
+- List is a Sequence, ordered collection of elements that can hold any data type as elements
+- List is mutable i.e elements in the list are modified
+- List has positive and negative indexing, supports both indexing and slicing
+- List can be created from string, tuple, dictionary
+- Basic operations are Indexing, slicing, concatenation, Membership, Identity
+- **dir(list)** gives the methods on the list.
+  - append, clear, copy, count, extend, index, insert, pop, remove, sort
+  - for example, list.append([]) => used to add an elements to the list
+  - insert, append, extend used to add elements to list
+  - pop, remove used to remove elements from the list
+  - Aliasing => giving different name to an existing object with the same address (changes reflected on both previous and recent variables)
+  - shallow copy => slicing and copy (changes reflected on only recent variables, but id are same in nested list elements)
+  - deepcopy => elements in nested list are all different in the deep copy list
+- List Comprehension:
+   - [expression for i in sequence if condition]
+
+
+
+
+
+
+
+- 
+
 
