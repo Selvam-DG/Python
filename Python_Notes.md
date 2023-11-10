@@ -120,6 +120,13 @@
 - List Comprehension:
    - [expression for i in sequence if condition]
 
+#### Tuple
+- Similar to list, all elements are kept inside a small bracket() and separated by comma.
+- It is immutable
+- Tuple can be created from string, list, tuple, dictionary
+- Tuple packing => packing or assigning multiple variable values to a single variable
+- In unpacking => fetching the individual values from a tuple to variables
+- 
 
 
 
