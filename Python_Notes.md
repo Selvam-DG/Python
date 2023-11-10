@@ -121,18 +121,25 @@
    - [expression for i in sequence if condition]
 
 #### Tuple
-- Similar to list, all elements are kept inside a small bracket() and separated by comma.
+- Similar to list, all elements are kept inside a small bracket() and separated by a comma.
 - It is immutable
 - Tuple can be created from string, list, tuple, dictionary
 - Tuple packing => packing or assigning multiple variable values to a single variable
 - In unpacking => fetching the individual values from a tuple to variables
-- 
-
-
-
-
-
-
-- 
-
-
+#### Dictionary
+- List is an unstructured data i.e, contains all data types
+- Dictionary is mutable
+- A dictionary is used to represent the structured data
+- It is a collection of key-value pair. Key value pair is called an item in a dictionary
+- Items are separated by a comma and should kept inside the flower{} bracket
+- Key cannot be duplicated whereas values can be duplicated
+- Key is immutable whereas value can be any type
+- It is not a sequence data storage, so indexing and slicing are not allowed, concatenation and repetition is also not allowed
+- Creation of Dictionary:
+  - Using key,value pairs. dict = {key:value}
+  - using eval function. dict1 = eval(input(Enter a dictionary))
+  - Using dict function. dict2 = dict([key,value])
+- Methods on Dictionary:
+   - dir(dict) => all methods on dictionary.
+   - clear, copy, fromkeys, items, keys, pop, popitem, values, get, setdefault, update
+   - 
