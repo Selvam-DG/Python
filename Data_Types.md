@@ -56,42 +56,6 @@
   - List, bytearray, dictionary,set are mutable data types i.e, changes will make on the same object.
   - rest all are immutable i.e not modified the values on the same object.
 
-#### Operators:
-- Arithmetic Operators
-   - +, -, *, / (true division), // (floor division => quotient), % (Modulus => remainder), ** (Exponent)
-   - % &// operators do not work on complex numbers
-- Comparison Operators
-   - <, <=,>, >=
-   - comparison between int and float is possible, but comparison between other data types and complex comparisons are not possible.
-- Equality Operators
-   - ==, !=
-   - Equality comparison between different data types is possible and it compares the values only
-- Logical Operators
-   - and, or, not
-- Bitwise Operators
-   - & (and), |(or), ^ (xor), ~ (negation), << (left-shift), >> (right-shift)
-   - The above operators works only on bits => True(1) and False (0)
-- Assignment Operators
-   - =, used to assign values to a variable 
-- Compound Operators
-   - +=,-+,*=, /=, //=, %=, **=, &=, |=, ~=, <<=, >>=
-- Membership Operators
-   - in, not in are membership operators
-   - check whether element is part of sequence or mapping type or not
-   - It works on str, list, tuple, frozenset, dictionary, bytes, range, bytearray
-- Identity Operators
-   - is, is not are identity operator
-   - Returns True/False if condition satisfies/fails
-- Ternary Operators
-  - expression_1 if condition else expression_2
-  - expression_1 if condition_1 else expression_2 if condition_2 else expression_3
-
-
-
-- **ord()** gives ASCII value of Character and chr() is used to get the character from number
-- **id()** is used to get the address of the variable.
-
-
 #### Derived Data Types:
 - List
 - Tuple
@@ -142,4 +106,40 @@
 - Methods on Dictionary:
    - dir(dict) => all methods on dictionary.
    - clear, copy, fromkeys, items, keys, pop, popitem, values, get, setdefault, update
-   - d
+   -
+
+#### Operators:
+- Arithmetic Operators
+   - +, -, *, / (true division), // (floor division => quotient), % (Modulus => remainder), ** (Exponent)
+   - % &// operators do not work on complex numbers
+- Comparison Operators
+   - <, <=,>, >=
+   - comparison between int and float is possible, but comparison between other data types and complex comparisons are not possible.
+- Equality Operators
+   - ==, !=
+   - Equality comparison between different data types is possible and it compares the values only
+- Logical Operators
+   - and, or, not
+- Bitwise Operators
+   - & (and), |(or), ^ (xor), ~ (negation), << (left-shift), >> (right-shift)
+   - The above operators works only on bits => True(1) and False (0)
+- Assignment Operators
+   - =, used to assign values to a variable 
+- Compound Operators
+   - +=,-+,*=, /=, //=, %=, **=, &=, |=, ~=, <<=, >>=
+- Membership Operators
+   - in, not in are membership operators
+   - check whether element is part of sequence or mapping type or not
+   - It works on str, list, tuple, frozenset, dictionary, bytes, range, bytearray
+- Identity Operators
+   - is, is not are identity operator
+   - Returns True/False if condition satisfies/fails
+- Ternary Operators
+  - expression_1 if condition else expression_2
+  - expression_1 if condition_1 else expression_2 if condition_2 else expression_3
+
+
+
+- **ord()** gives ASCII value of Character and chr() is used to get the character from number
+- **id()** is used to get the address of the variable.
+
