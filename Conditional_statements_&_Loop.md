@@ -50,7 +50,11 @@
      - for iterator_var in sequence:
        -statements(s)
   - statements(s)
-  - 
+- syntax
+ - while expression:
+  - while expression: 
+      - statement(s)
+  - statement(s)
 #### Loop Control Statements:
 - Break and continue are used in the loop
 - Break is used to terminate the current loop completely.
