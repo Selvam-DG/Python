@@ -4,15 +4,15 @@
 - The nested-if statement
 - The if-elif-else ladder
 #### if statment
-- syntac:
+- syntax:
   - if condition:
-   - Statements to execute
-    - if
-     - condition is true
+    - Statements to execute
+      - if
+        - condition is true
   
 #### if else:
 - syntax:
-  -  if condition:
+  - if condition:
      - statement 1
   - else:
      - statement 2
