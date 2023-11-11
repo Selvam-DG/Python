@@ -2,6 +2,7 @@
 
 - Python Functions is a block of statements that return the specific task. The idea is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again for different inputs, we can do the function calls to reuse code contained in it over and over again.
 
+
 #### Some Benefits of Using Functions
   - Increase Code Readability 
   - Increase Code Reusability
@@ -11,7 +12,42 @@
    - statement
    - return expression
      
+- After creating a function, we can call it by using the name of the function followed by parenthesis containing parameters/arguments of that particular function
+  
+#### return statement:
+- return statement is used to exit from a function and go back to function caller and return the value.
+- The return statement can consist of a variable, an expression, or a constant which is returned at the end of the function execution. If none of the above is present with the return statement a None object is returned.
+- return value may be a data type if it is a single value and it is a tuple if it returns multiple value
+  
 #### Types of Functions in Python
-- There are mainly two types of functions in Python.
-  - **Built-in library function**: These are Standard functions in Python that are available to use.
-  - **User-defined function:** We can create our own functions based on our requirements.
+- **Built-in library function**:
+ - These are Standard functions in Python that are available to use. (print, input, length.....)
+- **User-defined function:**
+ -  We can create our own functions based on our requirements.
+ -  We can create a user-defined function in Python, using the **def** keyword.
+   
+- difference between function and method :
+    - Function is defined outside of class whereas method is defined inside the class
+    - to use function, we don't use "." operator but, methods are accessed with "." operator (for eg. list.append())
+    
+
+      
+
+#### Types of Arguments in Function
+- Default argument
+  - parameter that assumes a default value if a value is not provided in the function call for that argument.
+    
+- Keyword arguments (named arguments)
+  - Here specify the argument name with values but the order of the parameters may change
+    
+- Positional arguments
+  - Arguments should be in the correct order while calling the function
+  - Number of arguments also match with function calling aruguments.
+- Arbitrary arguments (variable-length arguments *args and **kwargs)
+  - can pass a variable number of arguments to a function using special symbols.
+  - *args in Python (variable-length Non-Keyword Arguments)
+  - **kwargs in Python (variable-length Keyword Arguments)
+    
+#### Ananymous Function:
+- a function is without a name. 
+- the lambda keyword is used to create anonymous functions.
