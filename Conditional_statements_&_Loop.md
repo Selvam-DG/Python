@@ -7,8 +7,8 @@
 - syntax:
   - if condition:
     - Statements to execute
-      - if
-        - condition is true
+    - if
+       - condition is true
   
 #### if else:
 - syntax:
