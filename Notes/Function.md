@@ -21,10 +21,10 @@
   
 #### Types of Functions in Python
 - **Built-in library function**:
- - These are Standard functions in Python that are available to use. (print, input, length.....)
+  - These are Standard functions in Python that are available to use. (print, input, length.....)
 - **User-defined function:**
- -  We can create our own functions based on our requirements.
- -  We can create a user-defined function in Python, using the **def** keyword.
+  -  We can create our own functions based on our requirements.
+  -  We can create a user-defined function in Python, using the **def** keyword.
    
 - difference between function and method :
     - Function is defined outside of class whereas method is defined inside the class
