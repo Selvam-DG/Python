@@ -1,4 +1,4 @@
-## Conditional Statements in Python
+### Conditional Statements in Python
 #### if else:
 - syntax:
   -  if condition:
