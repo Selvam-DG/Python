@@ -1,5 +1,7 @@
 # Python
-
+- Python is a high-level, general-purpose, and very popular programming language
+- It is being used in ML, web development applications,
+ 
 #### Data Types in Python:
 - Fundamental Data Types
    - Integers
