@@ -1,4 +1,15 @@
 ### Conditional Statements in Python
+- The if statement
+- The if-else statement
+- The nested-if statement
+- The if-elif-else ladder
+#### if statment
+- syntac:
+  - if condition:
+   - Statements to execute
+   - if
+     - condition is true
+     - 
 #### if else:
 - syntax:
   -  if condition:
