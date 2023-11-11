@@ -2,6 +2,6 @@
 #### if else:
 - syntax:
   -  if condition:
-   - statement 1
+     - statement 1
   -else
-  - statement 2
+    - statement 2
