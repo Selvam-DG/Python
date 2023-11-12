@@ -51,3 +51,20 @@
 #### Ananymous Function:
 - a function is without a name. 
 - the lambda keyword is used to create anonymous functions.
+- syntax:
+  - lambda arg1, arg2......: expression
+  - here, return value is expression, no need to write return statement explicitly
+ 
+#### Others:
+- **filter** => filter a sequence based on some conditions, retuns a filter object
+  - syntax:=> filter(funciton,seq)
+    - ex=> list(filter(lambdaa num:num%2,seq))
+- **map** => mapping every value of existing sequences to a set of values and returns map object
+  - syntax=> map(function,sequence)
+    
+# scope and Namespaces:
+- LEGB => L- Local, E- Extended, G - Global, B - Built-ins
+- Name (which means name, a unique identifier) + Space(which talks something related to scope)
+- Namespace is a container that store values which may be Local container, Extended container, Global container or built-in container
+- local containers are in Extended containers, Extended containers are in Global containers, Global containers are in Built-in container
+- the values defined in local container, can't be accessed in Global or built-in containers but built-in container values are accessed in local containers. 
