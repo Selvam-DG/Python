@@ -11,6 +11,8 @@
 
 # Generator
 
+- To know generator, understand how an iterator performs in iterable objects.
+  
 - A Generator in Python is a function that returns an iterator using the Yield keyword.
 - A generator function is defined like a normal function, but whenever it needs to generate a value, it does so with the **yield** keyword rather than **return**.
 - If the body of a **def** contains **yield**, the function automatically becomes a Python generator function
@@ -20,7 +22,7 @@
      - yield statement (multiple yield statements are possible)
  - return in a function returns only one value whereas multiple yield statements return multiple values in Generator function.
 - Generator object always remembers its previous step
-- **generator expression** is another way of writing the generator function.
+- **Generator expression** is another way of writing the generator function.
   - syntax:
     - gen_name = (expression for item in iterable)
   - tuple comprehension creates a generator object
