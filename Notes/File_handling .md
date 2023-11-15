@@ -60,23 +60,23 @@
 - If file does not exist then it will give **FileNotFoundError**
 - This mode allowed only to read from the file and write in the file
 - syntax:
- - f = open(filename, 'r+')
- - f.read()
- - f.seek(len(f.read())
- - f.write(write the content of the file)
- - f.seek(0) 
- - f.close()
+  - f = open(filename, 'r+')
+  - f.read()
+  - f.seek(len(f.read())
+  - f.write(write the content of the file)
+  - f.seek(0) 
+  - f.close()
    **write and read mode: 'w+'**
    -- If the file exists then it will open a file in write mode and delete the content of the file.
 - If file does not exist, then it will create a file with the mentioned name.
 - This mode allows you to write into the file, and to read from the file.
 - syntax:
- - f = open(filename, 'w+')
- - f.read() # gives an empty file
- - f.write(write the content of the file)
- - f.seek(0)
- - f.read()
- - f.close()
+  - f = open(filename, 'w+')
+  - f.read() # gives an empty file
+  - f.write(write the content of the file)
+  - f.seek(0)
+  - f.read()
+  - f.close()
 
 **append and read mode: 'a+'**
 - If the file exists then it will open a file in write mode and place the cursor at the end of the file
