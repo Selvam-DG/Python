@@ -2,15 +2,15 @@
 - Python supports file handling and allows users to handle files i.e., to read and write files, along with many other file handling options, to operate on files
 ## Text file
 - Methods in file handling
-  - read, write, append, seek, tell, read(n), readline, readlines(), writelines(list
+   - read, write, append, seek, tell, read(n), readline, readlines(), writelines(list
 1. Open a file
- - f= open('File_name_with_extension', 'mode')
+   - f= open('File_name_with_extension', 'mode')
 2. Do the operation on file 
 3. Close the file
    - f.close()
    
 #### syntax:
- - f = open(filename, mode)
+  - f = open(filename, mode)
 
 #### Following mode is supported   
 - r: open an existing file for a read operation.
@@ -24,11 +24,11 @@
 - If file does not exist then it will give **FileNotFoundError**
 - This mode allowed only to read from the file, not allowed to do other methods
 - syntax:
- - f = open(filename, 'r')
- - f.read()
- - f.tell()
- - f.seek()
- - f.close()
+  - f = open(filename, 'r')
+  - f.read()
+  - f.tell()
+  - f.seek()
+  - f.close()
   
 - tell() function returns the value of cursor position in the file
 - seek() function places the cursor to the mentioned position in the file.
@@ -38,21 +38,21 @@
 - If file does not exist, then it will create a file with the mentioned name.
 - This mode allows you to write into the file, and not allowed to read from the file.
 - syntax:
- - f = open(filename, 'w')
- - f.write(write the content of the file)
- - f.tell()
- - f.seek()
- - f.close()
+  - f = open(filename, 'w')
+  - f.write(write the content of the file)
+  - f.tell()
+  - f.seek()
+  - f.close()
 
 **append mode**
-- - If the file exists then it will open a file in write mode and places the cursor at the end of the file
+- If the file exists then it will open a file in write mode and places the cursor at the end of the file
 - If file does not exist, then it will create a file with the mentioned name.
 - This mode allows you to write into the file, and not allowed to read from the file.
 - syntax:
- - f = open(filename, 'a')
- - f.write(write the content of the file)
- - f.tell() # in append mode, tell function the last position value of cursor from the file
- - f.close()
+  - f = open(filename, 'a')
+  - f.write(write the content of the file)
+  - f.tell() # in append mode, tell function the last position value of cursor from the file
+  - f.close()
 
    
 **read and write mode: r+**
@@ -83,11 +83,11 @@
 - If file does not exist, then it will create a file with the mentioned name.
 - This mode allows you to write into the file and allowed to read from the file.
 - syntax:
- - f = open(filename, 'a+')
- - f.write(write the content of the file)
- - f.seek(0)
- - f.read()
- - f.close()
+  - f = open(filename, 'a+')
+  - f.write(write the content of the file)
+  - f.seek(0)
+  - f.read()
+  - f.close()
 ## Binary Files 
 - for example => Images,pdf, audio
 - read - **rb**
