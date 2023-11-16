@@ -1,1 +1,25 @@
+# Exception handling in Python
+  - Type of Error
+  - What is an Exception?
+  - Why is Exception required?
+  - How to handle the exception
+  - User defined exception
+  - Regular Expression in Python
+- Debugginng
+  - The process of removing the bugs from applicatin
+- Types of Error in a program
+  - Compile time  Error
+  - Run time Error
+    - NameError, TypeError, ValueError, FileNotFoundError, OverflowError, ZeroDivisionError, ImportError, IOError, AttributeError 
+  - Logical Error 
+- Exception Handling is used to control RunTimeError, Logical Error has to be corrected in the program by rechecking again
+- The Errors that can be handled using the Exception handling concept are called Exceptions
 
+- Simply all exceptions are Errors but all Errors are not exceptions.
+- BaseException
+  - ArithmeticError
+  - AttributeError
+  - AssertionError
+  - SyntaxError
+  - TypeError
+  -  
