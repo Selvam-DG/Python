@@ -3,10 +3,10 @@
   - What is an Exception?
   - Why is Exception required?
   - How to handle the exception
-  - User defined exception
+  - User-defined exception
   - Regular Expression in Python
-- Debugginng
-  - The process of removing the bugs from applicatin
+- Debugging
+  - The process of removing the bugs from applications
 - Types of Error in a program
   - Compile time  Error
   - Run time Error
@@ -16,10 +16,16 @@
 - The Errors that can be handled using the Exception handling concept are called Exceptions
 
 - Simply all exceptions are Errors but all Errors are not exceptions.
-- BaseException
+- **BaseException**
   - ArithmeticError
   - AttributeError
   - AssertionError
   - SyntaxError
   - TypeError
-  -  
+  - EoFError
+  - RunTimeError
+  - ImportError
+  - NameError
+
+- What problem may arise if we don't handle the Exception?
+  - 
