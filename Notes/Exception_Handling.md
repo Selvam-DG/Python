@@ -66,10 +66,12 @@
     - execute if no exception
   - finally:
     - Some code .....(always executed)
-#### Different ways to write Exception statments
+#### Different ways to write Exception statements
 - except ExceptionClassName:
 - except ExceptionClassName as e:
 - except (ExceptionClassName1, ExceptionClassName2,ExceptionClassName3......)
 - except:
   - default exception
 - while writing the exceptions, order of exceptions is important (child class exception should always come first and then the parent class exception)
+#### User-defined Exception:
+- 
