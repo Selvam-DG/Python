@@ -13,9 +13,12 @@
 #### RegEx Functions
 - findall
   - returns a list containing all matches
-- search
-  - Returns a Match object if there is a Match anywhere in the string
-- split
+- search:
+  - Returns a Match object of the first occurrence if there is a Match anywhere in the string
+- match:
+  -  Returns a Match object of the beginning match if there is a Match in the string or return None
+-  split
   - Returns a list where the string has been split at each match
 - sub
   - Replaces one or many matches with a string
+
