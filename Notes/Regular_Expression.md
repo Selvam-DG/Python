@@ -47,3 +47,8 @@
 6. [^...] => Matches every character except typed characters inside the brackets.
 7. (....) => matches the regular expression inside the parenthesis and the result can be captured
 8. R|s => matches the regex either R regex or s regex
+#### syntax:
+- import re
+- string = "   "
+-  pattern = " "
+-  re.findall(pattern,string)
