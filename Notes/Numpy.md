@@ -14,10 +14,10 @@
 -  
 - **arange**: This function returns evenly spaced values within a given interval and Step size is specified.
    - Syntax:
-    - varible = np.arange(start,stop,step_size)
+      - varible = np.arange(start,stop,step_size)
 - **linspace**: It returns evenly spaced values within a given interval
    - Syntax:
-     - variable = np.linspace(start, end, evenly number of elements)
+      - variable = np.linspace(start, end, evenly number of elements)
 - **Reshaping array**: We can use reshape method to reshape an array.
    - while reshaping the array, the number of elements remains unchanged that is row and columns is equal to the number of elements in the array.
    - syntax:
