@@ -12,10 +12,10 @@
 -  The array object in NumPy is called ndarray. We can create a NumPy ndarray object by using the array() function
 -  NumPy Arrays provides the **ndim** attribute that returns an integer that tells us how many dimensions the array have
 -  
--  **arange**: This function returns evenly spaced values within a given interval and Step size is specified
-  - Syntax:
-    - varible = np.arange(start,stop,step_size)
--  **linspace**: It returns evenly spaced values within a given interval
+- **arange**: This function returns evenly spaced values within a given interval and Step size is specified.
+ - Syntax:
+   - varible = np.arange(start,stop,step_size)
+- **linspace**: It returns evenly spaced values within a given interval
   - Syntax:
     - variable = np.linspace(start, end, evenly number of elements)
 -  **Reshaping array**: We can use reshape method to reshape an array.
@@ -23,7 +23,7 @@
   - syntax:
     - variable1 = varaible.reshape(row,columns)
 - **Flatten array**: We can use the flatten method to get a copy of the array collapsed into one dimension array. It accepts order argument
- - syntax:
+  - syntax:
     - variable2 = varaible.flatten()
 - NumPy offers several functions to create arrays with initial placeholder content. These minimize the necessity of growing arrays, an expensive operation. For example: np.zeros, np.ones, np.full, np.empty, np.eye etc.,
    - syntax:
