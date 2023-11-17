@@ -18,7 +18,7 @@
 - **linspace**: It returns evenly spaced values within a given interval
    - Syntax:
      - variable = np.linspace(start, end, evenly number of elements)
--  **Reshaping array**: We can use reshape method to reshape an array.
+- **Reshaping array**: We can use reshape method to reshape an array.
    - while reshaping the array, the number of elements remains unchanged that is row and columns is equal to the number of elements in the array.
    - syntax:
       - variable1 = varaible.reshape(row,columns)
