@@ -13,15 +13,15 @@
 -  NumPy Arrays provides the **ndim** attribute that returns an integer that tells us how many dimensions the array have
 -  
 - **arange**: This function returns evenly spaced values within a given interval and Step size is specified.
-  - Syntax:
+   - Syntax:
     - varible = np.arange(start,stop,step_size)
 - **linspace**: It returns evenly spaced values within a given interval
    - Syntax:
      - variable = np.linspace(start, end, evenly number of elements)
 -  **Reshaping array**: We can use reshape method to reshape an array.
-  - while reshaping the array, the number of elements remains unchanged that is row and columns is equal to the number of elements in the array.
+   - while reshaping the array, the number of elements remains unchanged that is row and columns is equal to the number of elements in the array.
    - syntax:
-     - variable1 = varaible.reshape(row,columns)
+      - variable1 = varaible.reshape(row,columns)
 - **Flatten array**: We can use the flatten method to get a copy of the array collapsed into one dimension array. It accepts order argument
    - syntax:
      - variable2 = varaible.flatten()
