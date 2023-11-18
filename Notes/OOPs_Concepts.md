@@ -43,5 +43,23 @@
 - __init__ method is constructor, it is run as soon as an object of a class is mapped.
 - The method is useful to do any initialization you want to do with your object.
 #### The Python self  
-- Class methods must have an extra first parameter in the method definition. We do not give a value for this parameter when we call the method, Python provides it
+- Class methods must have an extra first parameter in the method definition. We do not
+- give a value for this parameter when we call the method, Python provides it
 - If we have a method that takes no arguments, then we still have to have one argument
+
+#### Types of Variable
+ - Instance variable
+ - Class variable (static variable)
+
+
+
+
+
+
+
+
+
+
+
+
+
