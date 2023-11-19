@@ -59,7 +59,9 @@
   - It represents real-world relationships well.
   - It provides the reusability of a code. We don’t have to write the same code again and again. Also, it allows us to add more features to a class without modifying it.
   - It is transitive in nature, which means that if class B inherits from another class A, then all the subclasses of B would automatically inherit from class A
-
+### Polymorphism
+- The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes
+- Polymorphism is often used in Class methods, where we can have multiple classes with the same method name
 
 
 
