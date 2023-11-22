@@ -54,3 +54,6 @@
 
 - **NumPy Sorting Arrays**:
   - There is a simple np.sort() method for sorting Python NumPy array
+
+
+- **Iterating over array elements**
