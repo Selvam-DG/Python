@@ -31,4 +31,26 @@
      - var2 = np.full((m,n),value)
      - var3 = np.random.rand((rows,column))
      - var4 = np.eye(rows, columns)
-- 
+
+### NumPy Array Indexing:
+- **Slicing**: Just like lists in Python, NumPy arrays can be sliced. As arrays can be multidimensional, you need to specify a slice for each dimension of the array.
+- **Integer array indexing**: In this method, lists are passed for indexing for each dimension. One-to-one mapping of corresponding elements is done to construct a new arbitrary array.
+- **Boolean array indexing**: This method is used when we want to pick elements from the array which satisfy some condition.
+
+### NumPy Basic Operations:
+- **Operations on a single NumPy array**
+  - We can use overloaded arithmetic operators to do element-wise operations on the array to create a new array. In the case of +=, -=, *= operators, the existing array is modified.
+    
+- **Unary Operators**
+  - Many unary operations are provided as a method of ndarray class. This includes sum, min, max, etc. These functions can also be applied row-wise or column-wise by setting an axis parameter
+    
+- **Binary Operators**
+  - These operations apply to the array elementwise and a new array is created. You can use all basic arithmetic operators like +, -, /,  etc. In the case of +=, -=, = operators, the existing array is modified
+
+- **Introduction to NymPy’s ufuncs**
+  - NumPy provides familiar mathematical functions such as sin, cos, exp, etc. These functions also operate elementwise on an array, producing an array as output.
+  - Note:
+     -  All the operations we did above using overloaded operators can be done using ufuncs like np.add, np.subtract, np.multiply, np.divide, np.sum, etc
+
+- **NumPy Sorting Arrays**:
+  - There is a simple np.sort() method for sorting Python NumPy array
