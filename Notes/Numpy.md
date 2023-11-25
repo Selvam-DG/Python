@@ -11,7 +11,29 @@
 - You can create an array from a regular Python list or tuple using the array() function
 -  The array object in NumPy is called ndarray. We can create a NumPy ndarray object by using the array() function
 -  NumPy Arrays provides the **ndim** attribute that returns an integer that tells us how many dimensions the array have
--  
+-  0-D Arrays
+   - 0-D arrays, or Scalars, are the elements in an array. Each value in an array is a 0-D array.
+- 1-D Arrays
+  - An array that has 0-D arrays as its elements is called uni-dimensional or 1-D array. These are the most common and basic arrays.
+ 
+- 2-D Arrays
+  - An array that has 1-D arrays as its elements is called a 2-D array. These are often used to represent matrix or 2nd order tensors.
+- 3-D arrays
+  - An array that has 2-D arrays (matrices) as its elements is called 3-D array. These are often used to represent a 3rd order tensor.
+- NumPy Arrays provides the ndim attribute that returns an integer that tells us how many dimensions the array have
+- **Numpy Data Types**:
+  - Below is a list of all data types in NumPy and the characters used to represent them.
+     - i is integer
+     - b is boolean
+     - u is unsigned integer
+     - f is float
+     - c is complex float
+     - m is timedelta
+     - M is datetime
+     - O is object
+     - S is string
+     - U is unicode string
+  - The astype() function creates a copy of the array, and allows you to specify the data type as a parameter.
 - **arange**: This function returns evenly spaced values within a given interval and Step size is specified.
    - Syntax:
       - varible = np.arange(start,stop,step_size)
@@ -57,3 +79,27 @@
 
 
 - **Iterating over array elements**
+  - Iterating means going through elements one by one.
+  - As we deal with multi-dimensional arrays in numpy, we can do this using basic for loop of python
+
+- **Slicing arrays**:
+   - Slicing in python means taking elements from one given index to another given index.
+   - We pass slice instead of index like this: [start:end].
+   - We can also define the step, like this: [start:end:step].
+   - Use the minus operator to refer to an index from the end (Negative Indexing)
+- **Joining Arrays**:
+   - concatenate() function is used to add two arrays, along with the axis.
+   - Stacking is same as concatenation, the only difference is that stacking is done along a new axis
+     - hstack ()
+     - vstack ()
+     - dstack ()
+- **Copy vs View**:
+   - The copy owns the data and any changes made to the copy will not affect original array, and any changes made to the original array will not affect the copy.
+   - The view does not own the data and any changes made to the view will affect the original array, and any changes made to the original array will affect the view
+- **Splitting an array**:
+  - use array_split() for splitting arrays, we pass it the array we want to split and the number of splits
+  - synatx:
+    - variable = np.array_split(array_Name, Size)
+   
+- **where()** method is used to search a value in an array.
+- **searchsorted()** method performs a binary search in the array, and returns the index where the specified value would be inserted to maintain the search order.
