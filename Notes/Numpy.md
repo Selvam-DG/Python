@@ -103,3 +103,4 @@
    
 - **where()** method is used to search a value in an array.
 - **searchsorted()** method performs a binary search in the array, and returns the index where the specified value would be inserted to maintain the search order.
+-fitering array is used to filter the values which satisf the condition and returns boolean values as True or False corresponding to Indices
