@@ -33,8 +33,8 @@
 9. \Z - matches only at the end of the string
 
 #### Characters represent more than one character to be matched in the string is called Quantifiers
-1. + => represents 1 or more repetitions of the preceding regex
-2. * => 0 or more repetitions of the preceding regex
+1. (plus) + => represents 1 or more repetitions of the preceding regex
+2. (asterisk) * => 0 or more repetitions of the preceding regex
 3. ? => 0 or 1 repetitions of the preceding regex
 4. {m} => exactly m occurrences
 5. {m,n} => from m to n, default n to infinity, always goes for higher bound i.e, n and then m
