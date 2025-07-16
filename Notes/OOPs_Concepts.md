@@ -177,7 +177,17 @@ class Circle(Shape):
         return 3.14 * 5 * 5
 
 ```
-
+## Summary 
+| Concept       | Description                                   |
+| ------------- | --------------------------------------------- |
+| Class         | Blueprint for creating objects                |
+| Object        | Instance of a class                           |
+| `__init__`    | Constructor method                            |
+| `self`        | Refers to current object                      |
+| Inheritance   | Reuse code from a base class                  |
+| Polymorphism  | Same method name, different behavior          |
+| Encapsulation | Restrict direct access to class data          |
+| Abstraction   | Hide complexity, show only necessary features |
 
 
 
